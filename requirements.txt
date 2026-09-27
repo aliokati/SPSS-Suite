@@ -1,1 +1,8 @@
 pandas>=1.0.0
+
+
+### How to use the wrapper:
+Once you have `cryptography` installed (`pip install cryptography`), you can run the script against any password-protected `.spv` or `.sav` file directly from your terminal:
+
+```bash
+python encrypted_wrapper.py protected_output.spv "your_password" -o decrypted_output.spv
